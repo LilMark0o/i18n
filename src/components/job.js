@@ -4,7 +4,6 @@ import { FormattedMessage, FormattedDate, FormattedNumber } from "react-intl";
 const Job = (props) => {
   const { offer, locale, index } = props;
 
-  // Selecciona el sufijo adecuado para el salario según el idioma y el valor
   let salarySuffix;
   if (locale === "es") {
     salarySuffix = offer.salary === 1 ? (

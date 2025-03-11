@@ -46,13 +46,13 @@ const JobsList = () => {
 
   const locale = navigator.language.startsWith("es") ? "es" : "en";
   
+  // OPCIONES PARA CAMBIAR A MANO
   // const locale = 'es';
   // const locale = 'en';
 
   // Según el requerimiento: light para español y dark para inglés.
   const headerClass = locale === "es" ? "table-light" : "table-dark";
 
-  // Debug: console.log(locale, headerClass);
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
       <div>
