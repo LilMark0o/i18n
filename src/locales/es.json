@@ -1,0 +1,10 @@
+{
+  "position": "Posición",
+  "company": "Empresa",
+  "salary": "Salario",
+  "city": "Ciudad",
+  "date": "Fecha de publicación",
+  "visits": "Visitas",
+  "millionSingular": "millón",
+  "millionPlural": "millones"
+}
